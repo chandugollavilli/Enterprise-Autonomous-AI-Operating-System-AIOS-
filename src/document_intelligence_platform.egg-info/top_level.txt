@@ -1,0 +1,8 @@
+__init__
+api
+config
+domain
+infrastructure
+main
+repositories
+services

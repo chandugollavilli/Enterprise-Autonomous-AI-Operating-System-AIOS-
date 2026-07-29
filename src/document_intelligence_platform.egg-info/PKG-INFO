@@ -1,0 +1,34 @@
+Metadata-Version: 2.4
+Name: document-intelligence-platform
+Version: 0.1.0
+Summary: Enterprise-Grade Document Intelligence Platform using Baidu Unlimited-OCR, FastAPI, Celery, and Qdrant.
+Author: Enterprise AI Architecture Team
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi>=0.111.0
+Requires-Dist: uvicorn[standard]>=0.30.0
+Requires-Dist: pydantic>=2.7.0
+Requires-Dist: pydantic-settings>=2.3.0
+Requires-Dist: sqlalchemy>=2.0.30
+Requires-Dist: alembic>=1.13.0
+Requires-Dist: asyncpg>=0.29.0
+Requires-Dist: psycopg2-binary>=2.9.9
+Requires-Dist: celery[redis]>=5.4.0
+Requires-Dist: redis>=5.0.4
+Requires-Dist: minio>=7.2.7
+Requires-Dist: qdrant-client>=1.9.0
+Requires-Dist: opencv-python-headless>=4.9.0
+Requires-Dist: pillow>=10.3.0
+Requires-Dist: pymupdf>=1.24.0
+Requires-Dist: pdf2image>=1.17.0
+Requires-Dist: python-jose[cryptography]>=3.3.0
+Requires-Dist: passlib[bcrypt]>=1.7.4
+Requires-Dist: prometheus-client>=0.20.0
+Requires-Dist: python-multipart>=0.0.9
+Requires-Dist: httpx>=0.27.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.2.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.23.0; extra == "dev"
+Requires-Dist: pytest-cov>=5.0.0; extra == "dev"
+Requires-Dist: ruff>=0.4.0; extra == "dev"
+Requires-Dist: mypy>=1.10.0; extra == "dev"

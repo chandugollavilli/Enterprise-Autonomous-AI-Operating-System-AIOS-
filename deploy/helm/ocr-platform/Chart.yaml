@@ -1,0 +1,12 @@
+apiVersion: v2
+name: ocr-platform
+description: Helm Chart for Enterprise Document Intelligence Platform (FastAPI, PyMuPDF, OpenCV, Unlimited-OCR, Celery, Qdrant)
+type: application
+version: 1.0.0
+appVersion: "1.0.0"
+keywords:
+  - ocr
+  - document-intelligence
+  - fast-api
+  - qdrant
+  - celery
